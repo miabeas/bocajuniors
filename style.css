@@ -18,3 +18,24 @@ h1{
     text-align: center;
     font-size: 50pt;
 }
+
+.topnav{
+    background-color: gold;
+    overflow: hidden;
+
+}
+
+.topnav a{
+    float: left;
+    padding: 14px 16px;
+    color: rgb(39, 37, 107);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: lightgray;
+}
+
+.topnav a:hover{
+    background-color:rgb(39, 37, 107);
+    color: rgb(249, 253, 4);
+
+}
