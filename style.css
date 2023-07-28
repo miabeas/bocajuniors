@@ -29,6 +29,8 @@ h1{
     float: left;
     padding: 14px 16px;
     color: rgb(39, 37, 107);
+
+    
     font-size: 30px;
     text-align: center;
     text-decoration: lightgray;
@@ -37,5 +39,19 @@ h1{
 .topnav a:hover{
     background-color:rgb(39, 37, 107);
     color: rgb(249, 253, 4);
+
+}
+
+.indexCSS hr{
+    margin-top: 5em;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 
 }
