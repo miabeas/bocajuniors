@@ -10,13 +10,14 @@ img{
 
 p{
     text-align: center;
-    font-family: 'Times New Roman',
+    font-family: 'Times New Roman';
+    font-size: 15pt; ;
 
 }
 
 h1{
     text-align: center;
-    font-size: 50pt;
+    font-size: 30pt;
 }
 
 .topnav{
@@ -53,4 +54,19 @@ h1{
     margin-left: auto;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-device-width:60em){
+    .playersCSS img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10em;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+    }
 }
