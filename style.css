@@ -70,3 +70,10 @@ h1{
         width: 20em;
     }
 }
+
+.contact{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+}
